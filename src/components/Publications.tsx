@@ -131,65 +131,72 @@ const patents = [
 
 export function Publications() {
   return (
-    <section id="publications" className="py-20 bg-black">
-      <div className="container mx-auto px-4 flex flex-col items-center">
+    <section id="publications" className="py-12 md:py-20 bg-black">
+      <div className="container mx-auto px-2 md:px-4 flex flex-col items-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16 w-full"
+          className="text-center mb-8 md:mb-16 w-full"
         >
-          <h2 className="text-5xl md:text-5xl font-castoro bg-clip-text text-transparent bg-gradient-to-b from-white to-black mb-4">
-            Publications
+          <h2 className="text-3xl md:text-5xl font-castoro bg-clip-text text-transparent bg-gradient-to-b from-white to-black mb-2 md:mb-4">
+            PUBLICATIONS
           </h2>
           <p className="text-gray-400 font-montaga text-sm md:text-base">
             Research contributions and intellectual property
           </p>
         </motion.div>
 
-        <div className="space-y-16 w-full max-w-6xl">
+        <div className="space-y-8 md:space-y-16 w-full max-w-6xl">
           <div>
-            <div className="mb-10">
+            <div className="mb-6 md:mb-10">
               <h3 className="text-[1.6rem] md:text-4xl font-castoro text-red-500 inline-block relative">
                 JOURNALS
                 <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-white"></span>
               </h3>
             </div>
-            <InfiniteMovingCards items={journalPublications} direction="left" speed="slow" />
+            <div className="scale-90 md:scale-100">
+              <InfiniteMovingCards items={journalPublications} direction="left" speed="slow" />
+            </div>
           </div>
 
           <div>
-            <div className="mb-10">
+            <div className="mb-6 md:mb-10">
               <h3 className="text-[1.6rem] md:text-4xl font-castoro text-red-500 inline-block relative">
                 CONFERENCES
                 <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-white"></span>
               </h3>
             </div>
-            <InfiniteMovingCards items={conferencePublications} direction="right" speed="slow" />
-          </div>
-          <div className="space-y-16 w-full max-w-6xl">
-          <div>
-            <div className="mb-10">
-              <h3 className="text-[1.6rem] md:text-4xl font-castoro text-red-500 inline-block relative">
-                PATENTS
-                <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-white"></span>
-              </h3>
+            <div className="scale-90 md:scale-100">
+              <InfiniteMovingCards items={conferencePublications} direction="right" speed="slow" />
             </div>
-            <InfiniteMovingCards items={journalPublications} direction="left" speed="slow" />
           </div>
 
-          <div>
-            <div className="mb-10">
-              <h3 className="text-[1.6rem] md:text-4xl font-castoro text-red-500 inline-block relative">
-                BOOKS
-                <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-white"></span>
-              </h3>
+          <div className="space-y-8 md:space-y-16 w-full max-w-6xl">
+            <div>
+              <div className="mb-6 md:mb-10">
+                <h3 className="text-[1.6rem] md:text-4xl font-castoro text-red-500 inline-block relative">
+                  PATENTS
+                  <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-white"></span>
+                </h3>
+              </div>
+              <div className="scale-90 md:scale-100">
+                <InfiniteMovingCards items={patents} direction="left" speed="slow" />
+              </div>
             </div>
-            <InfiniteMovingCards items={conferencePublications} direction="right" speed="slow" />
-          </div>
 
+            <div>
+              <div className="mb-6 md:mb-10">
+                <h3 className="text-[1.6rem] md:text-4xl font-castoro text-red-500 inline-block relative">
+                  BOOKS
+                  <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-white"></span>
+                </h3>
+              </div>
+              <div className="scale-90 md:scale-100">
+                <InfiniteMovingCards items={conferencePublications} direction="right" speed="slow" />
+              </div>
+            </div>
           </div>
-          
         </div>
       </div>
     </section>

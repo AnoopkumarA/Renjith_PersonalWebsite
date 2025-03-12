@@ -47,7 +47,7 @@ const workExperienceData = [
 export function WorkExperience() {
   return (
     <div id='experience' className="w-full flex flex-col items-center justify-center py-20 text-white">
-      <h2 className="text-[2.3rem] md:text-5xltext-center font-castoro bg-clip-text text-transparent bg-gradient-to-b from-white to-black mb-12">Work Experiences</h2>
+      <h2 className="text-3xl md:text-5xltext-center font-castoro bg-clip-text text-transparent bg-gradient-to-b from-white to-black mb-12">WORK EXPERIENCES</h2>
       <StickyScroll
         content={workExperienceData.map((experience) => ({
           title: (<span className="font-castoro text-2xl text-[#ff3000]">{experience.title}</span>),
