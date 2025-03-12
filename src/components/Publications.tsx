@@ -139,8 +139,8 @@ export function Publications() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 w-full"
         >
-          <h2 className="text-3xl md:text-5xl font-castoro bg-clip-text text-transparent bg-gradient-to-b from-white to-black mb-4">
-            PUBLICATIONS
+          <h2 className="text-5xl md:text-5xl font-castoro bg-clip-text text-transparent bg-gradient-to-b from-white to-black mb-4">
+            Publications
           </h2>
           <p className="text-gray-400 font-montaga text-sm md:text-base">
             Research contributions and intellectual property

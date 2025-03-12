@@ -153,10 +153,10 @@ export function Achievements() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="flex flex-col md:flex-row items-center gap-2 text-center md:text-left"
               >
-                <span className="text-3xl md:text-5xl font-castoro text-white">
+                <span className="text-[2.4rem] md:text-5xl font-castoro text-white">
                   <Counter key={`counter-${stat.label}-${isInView}`} from={0} to={stat.count} />
                 </span>
-                <HyperText className="text-base md:text-4xl font-castoro text-white">
+                <HyperText className="text-2xl md:text-4xl font-castoro text-white">
                   {stat.label}
                 </HyperText>
               </motion.div>

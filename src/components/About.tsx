@@ -3,7 +3,7 @@ import { Download, Mail } from 'lucide-react';
 
 export default function About() {
   return (
-    <section id="about" className=" md:py-20 bg-black ">
+    <section id="about" className=" md:py-20 bg-black relative -top-16">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ export default function About() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="#contact"
-                className="flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-full hover:bg-red-700 transition-colors"
+                className="flex items-center gap-2 bg-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-full hover:bg-red-700 transition-colors"
               >
                 <Mail size={20} />
                 Contact
@@ -40,7 +40,7 @@ export default function About() {
                 whileTap={{ scale: 0.95 }}
                 href="../../public/pdfs/CV Renjith Thomas.pdf"
                 download="CV of Renjith Thomas"
-                className="flex items-center gap-2 border border-red-600 text-white px-6 py-3 rounded-full hover:bg-red-600/10 transition-colors"
+                className="flex items-center gap-2 border border-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-full hover:bg-red-600/10 transition-colors"
               >
                 <Download size={20} />
                 Download CV
