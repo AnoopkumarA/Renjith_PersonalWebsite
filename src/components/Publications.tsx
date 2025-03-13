@@ -27,7 +27,7 @@ const journalPublications = [
     quote: "Fractional Rider and Multi-Kernel-Based Spherical SVM for Low-Resolution Face Recognition",
     name: "Thomas, R., & Rangachar, M. J. S",
     title: [
-      "Multimedia Research",
+      "",
       "Year: 2019",
       "Volume 2(2), Pages 35-43"
     ].join('\n')
@@ -36,7 +36,7 @@ const journalPublications = [
     quote: "Hybrid Optimization Based DBN for Face Recognition Using Low-Resolution Images",
     name: "Thomas, R., & Rangachar, M. J. S",
     title: [
-      "Multimedia Research",
+      "",
       "Year: 2018",
       "Volume 1(1), Pages 33-43"
     ].join('\n')
