@@ -48,7 +48,7 @@ export default function Hero() {
             sequence={[
               'AI Researcher',
               2000,
-              'Associate Proffessor',
+              'Associate Professor',
               2000,
               'Innovator',
               2000,
