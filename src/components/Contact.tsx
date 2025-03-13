@@ -1,22 +1,28 @@
 import { motion } from "framer-motion";
 import { Mail, MapPin, Phone, Home } from "lucide-react";
 import emailjs from "emailjs-com";
+import { useState } from "react";
 
 export default function Contact() {
+  const [successMessage, setSuccessMessage] = useState("");
+
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_1kkft2o",
-        "template_ft6wvqr",
+        "service_v9rx9l6",
+        "template_acm99lo",
         e.target as HTMLFormElement,
-        "8OP27AOiAMAd2_Ovg"
+        "t7IPkWFV-6GNTKkmQ"
       )
       .then(
         (result) => {
           console.log("Message sent successfully", result.text);
           (e.target as HTMLFormElement).reset();
+          setSuccessMessage("Message sent successfully!");
+          // Clear success message after 5 seconds
+          setTimeout(() => setSuccessMessage(""), 5000);
         },
         (error) => {
           console.error("Error sending message", error.text);
@@ -113,19 +119,22 @@ export default function Contact() {
           >
             <input
               type="text"
-              name="user_name"
+              name="from_name"
               placeholder="Your Name"
+              required
               className="w-full px-4 py-3 font-montaga bg-zinc-900 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
             />
             <input
               type="email"
-              name="user_email"
+              name="from_email"
               placeholder="Your Email"
+              required
               className="w-full px-4 py-3 font-montaga bg-zinc-900 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
             />
             <textarea
               name="message"
               placeholder="Your Message"
+              required
               rows={4}
               className="w-full px-4 py-3 font-montaga bg-zinc-900 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
             ></textarea>
@@ -136,6 +145,11 @@ export default function Contact() {
             >
               Send Message
             </motion.button>
+            {successMessage && (
+              <div className="text-lg text-green-700 px-4 py-3 rounded relative text-center">
+                {successMessage}
+              </div>
+            )}
           </motion.form>
 
         </div>

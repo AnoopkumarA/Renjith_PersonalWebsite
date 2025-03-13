@@ -57,8 +57,8 @@ const achievementGallery: {
       image: "/images/Achivement (3).jpeg"
     },
     {
-      title: "Build With AI ",
-      description: "5th Place in International Hackathon",
+      title: "Idea Pitching at Kerala StartUp Mission ",
+      description: "",
       image: "/images/ach (4).png"
     },
     {
@@ -70,18 +70,18 @@ const achievementGallery: {
   middleColumn: [
     
     {
-      title: "NBA Accreditation",
-      description: "Program Coordinator (2023-2026)",
+      title: "Manorama News Article",
+      description: "",
       image: "/images/ach (10).png"
     },
     {
-      title: "Build With AI",
-      description: "5th Place in International Hackathon",
+      title: "IIT Kottayam ",
+      description: "1 Week Workshop",
       image: "/images/ach (6).png"
     },
     {
-      title: "Kerala Startup Mission",
-      description: "₹2,00,000 Seed Funding",
+      title: "Ente Keralam Program",
+      description: "",
       image: "/images/ach (1).png"
     },
    
@@ -91,8 +91,8 @@ const achievementGallery: {
       image: "/images/ach (3).png"
     },
     {
-      title: "Kerala Startup Mission",
-      description: "₹2,00,000 Seed Funding",
+      title: "Ente Keralam Program",
+      description: "g",
       image: "/images/ach (2).png"
     }
     
@@ -100,18 +100,19 @@ const achievementGallery: {
   ],
   rightColumn: [
     {
-      title: "Kerala Startup Mission",
-      description: "₹2,00,000 Seed Funding",
-      image: "/images/ach (9).png"
+      title: "Ente Keralam Program",
+      description: "",
+      image: "/images/ach (2).png"
     },
+    
     {
-      title: "Ente Keralam Showcase",
-      description: "AI-based Surveillance System Demo",
+      title: "IIT Kottayam",
+      description: "",
       image: "/images/ach (5).png"
     },
     {
-      title: "Kerala Startup Mission",
-      description: "₹2,00,000 Seed Funding",
+      title: "Ex-Union MInister prakash javadekar",
+      description: "",
       image: "/images/ach (11).png"
     },
     {
@@ -120,10 +121,11 @@ const achievementGallery: {
       image: "/images/Achivement (2).jpeg"
     },
     {
-      title: "Kerala Startup Mission",
-      description: "₹2,00,000 Seed Funding",
-      image: "/images/ach (2).png"
+      title: "P.H.D Defence Snapse",
+      description: "",
+      image: "/images/ach (9).png"
     }
+    
     
   ]
 };
