@@ -51,7 +51,7 @@ export function Education() {
       ),
     },
     {
-      title: "Changelog",
+      title: "2002-2006",
       content: (
         <div>
         <h1 className="font-montaga text-[1.7rem] md:text-5xl mb-4">

@@ -64,7 +64,7 @@ const achievementGallery: {
     {
       title: "Ente Keralam Showcase",
       description: "AI-based Surveillance System Demo",
-      image: "/images/ach (2).png"
+      image: "/images/ach (13).jpeg"
     }
   ],
   middleColumn: [
@@ -90,6 +90,11 @@ const achievementGallery: {
       description: "₹2,00,000 Seed Funding",
       image: "/images/ach (3).png"
     },
+    {
+      title: "Kerala Startup Mission",
+      description: "₹2,00,000 Seed Funding",
+      image: "/images/ach (2).png"
+    }
     
     
   ],
@@ -117,7 +122,7 @@ const achievementGallery: {
     {
       title: "Kerala Startup Mission",
       description: "₹2,00,000 Seed Funding",
-      image: "/images/ach (7).png"
+      image: "/images/ach (2).png"
     }
     
   ]
