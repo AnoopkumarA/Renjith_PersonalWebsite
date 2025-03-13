@@ -121,7 +121,7 @@ const achievementGallery: {
       image: "/images/Achivement (2).jpeg"
     },
     {
-      title: "P.H.D Defence Snapse",
+      title: "P.H.D Defence Snaps",
       description: "",
       image: "/images/ach (9).png"
     }
