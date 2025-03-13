@@ -92,7 +92,7 @@ const achievementGallery: {
     },
     {
       title: "Ente Keralam Program",
-      description: "g",
+      description: "",
       image: "/images/ach (2).png"
     }
     
@@ -107,7 +107,7 @@ const achievementGallery: {
     
     {
       title: "IIT Kottayam",
-      description: "",
+      description: "1 Week Workshop",
       image: "/images/ach (5).png"
     },
     {
