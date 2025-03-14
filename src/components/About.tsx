@@ -21,9 +21,9 @@ export default function About() {
           <div className="md:w-1/2 text-white p-6 md:pr-8 relative -left-0 md:-left-24">
             <h2 className="text-4xl font-castoro bg-clip-text text-transparent bg-gradient-to-b from-white to-black mb-6">ABOUT ME</h2>
             <p className="text-gray-300 font-montaga text-justify mb-6 ">
-            I am an academic and researcher specializing in Computer Vision, with a PhD in the field. With extensive experience in teaching, research, and mentoring, I am passionate about guiding students, supervising research projects, and contributing to curriculum development. My expertise spans machine learning, deep learning, natural language processing, and computer vision, with multiple publications in international journals and conferences.<br />
+            An academic and researcher specializing in Computer Vision, with a PhD in the field. With extensive experience in teaching, research, and mentoring, I am passionate about guiding students, supervising research projects, and contributing to curriculum development. My expertise spans machine learning, deep learning, natural language processing, and computer vision, with multiple publications in international journals and conferences.<br />
               <br />
-              Beyond academia, I am actively involved in AI-driven innovations, securing patents and research grants, including funding for student projects and AI-based surveillance solutions. I have earned recognition in global AI hackathons, serve as a reviewer for IEEE and other esteemed conferences, and have contributed to the advancement of AI applications in healthcare, smart cities, and security.
+              Beyond academia, I am actively involved in AI-driven innovations, securing patents and research grants, and authoring various conference and journal publications. I have earned recognition in global AI hackathons, serve as a reviewer for IEEE and other esteemed conferences, and have contributed to the advancement of AI applications in healthcare, smart cities, and security.
             </p>
             <div className="flex gap-4">
               <motion.a

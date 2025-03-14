@@ -55,6 +55,8 @@ export default function Hero() {
               'Mentor',
               2000,
               'Conference Reviewer',
+              2000,
+              'Journal Reviewer'
               2000
             ]}
             wrapper="span"
