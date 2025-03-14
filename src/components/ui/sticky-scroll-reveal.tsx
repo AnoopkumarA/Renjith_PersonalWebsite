@@ -16,10 +16,21 @@ export const StickyScroll = ({
   contentClassName?: string;
 }) => {
   const [activeCard, setActiveCard] = React.useState(0);
+  const [isMobile, setIsMobile] = React.useState(false);
   const ref = useRef(null);
+
+  React.useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const { scrollYProgress } = useScroll({
-    // uncomment line 22 and comment line 23 if you DONT want the overflow container and want to have it change on the entire page scroll
-    // target: ref
     container: ref,
     offset: ["start start", "end start"],
   });
@@ -42,7 +53,7 @@ export const StickyScroll = ({
 
   return (
     <motion.div
-      className="h-[40rem] overflow-y-auto experience-section no-scrollbar flex justify-center relative space-x-16 rounded-md p-12"
+      className="h-[40rem] w-[26rem] md:w-full overflow-y-auto experience-section no-scrollbar flex justify-center relative space-x-16 rounded-md p-12"
       ref={ref}
     >
       <div className="div relative flex items-start px-6">
@@ -54,7 +65,7 @@ export const StickyScroll = ({
                   opacity: 0,
                 }}
                 animate={{
-                  opacity: activeCard === index ? 1 : 0.3,
+                  opacity: isMobile ? 1 : (activeCard === index ? 1 : 0.3),
                 }}
                 className="text-3xl font-bold text-slate-100"
               >
@@ -65,7 +76,7 @@ export const StickyScroll = ({
                   opacity: 0,
                 }}
                 animate={{
-                  opacity: activeCard === index ? 1 : 0.3,
+                  opacity: isMobile ? 1 : (activeCard === index ? 1 : 0.3),
                 }}
                 className="text-lg text-slate-300 max-w-xl mt-12"
               >

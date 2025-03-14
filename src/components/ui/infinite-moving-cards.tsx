@@ -73,14 +73,42 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20 max-w-5xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 max-w-5xl overflow-x-auto overflow-y-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] cursor-grab active:cursor-grabbing scrollbar-thin scrollbar-track-transparent scrollbar-thumb-red-600",
         className
       )}
+      onMouseDown={(e) => {
+        if (containerRef.current) {
+          const slider = containerRef.current;
+          let isDown = true;
+          let startX = e.pageX - slider.offsetLeft;
+          let scrollLeft = slider.scrollLeft;
+
+          slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 2;
+            slider.scrollLeft = scrollLeft - walk;
+          });
+
+          slider.addEventListener('mouseup', () => {
+            isDown = false;
+          });
+
+          slider.addEventListener('mouseleave', () => {
+            isDown = false;
+          });
+        }
+      }}
+      style={{
+        scrollbarWidth: 'thin',
+        scrollbarColor: 'rgb(220, 38, 38) transparent'
+      }}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
+          "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap select-none",
           start && "animate-scroll",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
@@ -95,9 +123,9 @@ export const InfiniteMovingCards = ({
           >
             <blockquote className="h-full flex flex-col justify-between">
               <div className="space-y-4">
-                <h3 className="text-base md:text-lg font-semibold leading-snug text-white">
+                <a href="" target="blank" > <h3 className="text-base md:text-lg font-semibold leading-snug text-white">
                   {item.quote}
-                </h3>
+                </h3></a>
                 <div className="space-y-2">
                   <p className="text-sm text-gray-400 font-normal">
                     {item.name}

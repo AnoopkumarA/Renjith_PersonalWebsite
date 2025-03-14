@@ -99,11 +99,7 @@ const achievementGallery: {
     
   ],
   rightColumn: [
-    {
-      title: "Ente Keralam Program",
-      description: "",
-      image: "/images/ach (2).png"
-    },
+   
     
     {
       title: "IIT Kottayam",
