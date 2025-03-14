@@ -56,7 +56,7 @@ export function WorkExperience() {
               <h3 className="text-2xl">{experience.institution}</h3>
               <p className="text-lg text-gray-300">{experience.department}</p>
               <p className="mt-2 text-lg font-montaga text-[#ff3000]">( {experience.date} )</p>
-              <p className="mt-4 text-base leading-relaxed text-gray-400">{experience.description}</p>
+              <p className="mt-4 text-base leading-relaxed text-gray-300">{experience.description}</p>
             </div>
           ),
           content: experience.image ? (

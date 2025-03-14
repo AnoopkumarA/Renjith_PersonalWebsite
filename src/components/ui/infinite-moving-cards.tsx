@@ -25,7 +25,32 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
+    if (containerRef.current) {
+      containerRef.current.addEventListener('scroll', handleScroll);
+    }
+    return () => {
+      if (containerRef.current) {
+        containerRef.current.removeEventListener('scroll', handleScroll);
+      }
+    };
   }, []);
+
+  const handleScroll = () => {
+    const container = containerRef.current;
+    if (container) {
+      const scrollWidth = container.scrollWidth;
+      const scrollLeft = container.scrollLeft;
+      const clientWidth = container.clientWidth;
+
+      if (scrollLeft + clientWidth >= scrollWidth * 0.8) {
+        container.scrollTo({
+          left: 0,
+          behavior: 'smooth'
+        });
+      }
+    }
+  };
+
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
@@ -73,7 +98,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20 max-w-5xl overflow-x-auto overflow-y-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] cursor-grab active:cursor-grabbing scrollbar-thin scrollbar-track-transparent scrollbar-thumb-red-600",
+        "scroller relative z-20 max-w-[95%] mx-auto overflow-x-auto overflow-y-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] cursor-grab active:cursor-grabbing scrollbar-thin scrollbar-track-transparent scrollbar-thumb-red-600 scroll-smooth",
         className
       )}
       onMouseDown={(e) => {
@@ -83,32 +108,37 @@ export const InfiniteMovingCards = ({
           let startX = e.pageX - slider.offsetLeft;
           let scrollLeft = slider.scrollLeft;
 
-          slider.addEventListener('mousemove', (e) => {
+          const handleMouseMove = (e: MouseEvent) => {
             if (!isDown) return;
             e.preventDefault();
             const x = e.pageX - slider.offsetLeft;
             const walk = (x - startX) * 2;
             slider.scrollLeft = scrollLeft - walk;
-          });
+          };
 
-          slider.addEventListener('mouseup', () => {
+          const handleMouseUp = () => {
             isDown = false;
-          });
+            slider.removeEventListener('mousemove', handleMouseMove);
+            slider.removeEventListener('mouseup', handleMouseUp);
+            slider.removeEventListener('mouseleave', handleMouseUp);
+          };
 
-          slider.addEventListener('mouseleave', () => {
-            isDown = false;
-          });
+          slider.addEventListener('mousemove', handleMouseMove);
+          slider.addEventListener('mouseup', handleMouseUp);
+          slider.addEventListener('mouseleave', handleMouseUp);
         }
       }}
       style={{
         scrollbarWidth: 'thin',
-        scrollbarColor: 'rgb(220, 38, 38) transparent'
+        scrollbarColor: 'rgb(220, 38, 38) transparent',
+        maxWidth: 'calc(100% - 2rem)',
+        margin: '0 auto'
       }}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap select-none",
+          "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap select-none px-4",
           start && "animate-scroll",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
