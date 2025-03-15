@@ -76,7 +76,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-white font-medium font-playfair">Phone</h3>
-                <p className="text-gray-400 font-montaga">9446115817</p>
+                <p className="text-gray-400 font-montaga">+91 9446115817</p>
               </div>
             </div>
 
