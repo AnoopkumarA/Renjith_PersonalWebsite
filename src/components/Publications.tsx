@@ -1,13 +1,12 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { BookOpen, Award, FileText } from 'lucide-react';
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 
 const journalPublications = [
   {
     quote: "Integrating GWTM and BAT algorithm for face recognition in low-resolution images",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "The Imaging Science Journal",
       "Publisher: Taylor & Francis",
@@ -17,7 +16,7 @@ const journalPublications = [
   },
   {
     quote: "Towards Proposing Gabor Ratio Measures and Fuzzy Logic Classifier for Face Recognition",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "International Journal of Pattern Recognition and Artificial Intelligence, World Scientific",
       "Publisher: IEEE Access",
@@ -30,7 +29,7 @@ const journalPublications = [
 const conferencePublications = [
   {
     quote: "Automated Mark Entry in Educational Institutions Using Multiple CNNs: A Case Study on Recognizing Handwritten Fractional Marks",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "IEEE International Conference on Computational Intelligence and Network Systems (CINS)",
       "Year: 2024",
@@ -39,7 +38,7 @@ const conferencePublications = [
   },
   {
     quote: "Simple Action Model: Enabling LLM to Sequential Function Calling Tool Chain",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "IEEE International Conference on Advancement in Renewable Energy and Intelligent Systems (AREIS)",
       "Year: 2024",
@@ -48,7 +47,7 @@ const conferencePublications = [
   },
   {
     quote: "Automated Detection of Traffic Rule Violation using Deep Learning Techniques",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       " IEEE Recent Advances in Intelligent Computational Systems (RAICS)",
       "Year: 2024",
@@ -57,7 +56,7 @@ const conferencePublications = [
   },
   {
     quote: "Face Recognition from Image Patches Using an Ensemble of CNN-Local Mesh Pattern Networks",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "IEEE 6th International Conference for Convergence in Technology (I2CT)",
       "Year: 2021",
@@ -66,7 +65,7 @@ const conferencePublications = [
   },
   {
     quote: "GWTM and Crow Search Algorithm for Face Recognition in Low-Resolution Images",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "IEEE International Conference on Advances in Computing, Communication Control and Networking (ICACCCN)",
       "Year: 2018",
@@ -75,7 +74,7 @@ const conferencePublications = [
   },
   {
     quote: "Genetic Algorithm Optimization and Multi-Kernel-Based Spherical SVM for Low-Resolution Face Recognition",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
       "Year: 2018"
@@ -86,7 +85,7 @@ const conferencePublications = [
 const patents = [
   {
     quote: "Automated Mark Entry in Educational Institutions Using Multiple CNNs",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "Patent No: 2021101443",
       "Publication date: 28/04/2021",
@@ -95,7 +94,7 @@ const patents = [
   },
   {
     quote: "AI Enabled Under Water Pollution Tracking Device",
-    name: " Dr. Renjith Thomas & Et al.",
+    name: " Dr. Renjith Thomas & et. al.",
     title: [
       "Patent No: : 6336195",
       "Publication date: : December 2023",
@@ -104,7 +103,7 @@ const patents = [
   },
   {
     quote: "Smart HealthCare Monitoring Apparatus",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "Patent No:  424211-001",
       "Cbr Date: 22/07/2024 19:41:17",
@@ -116,7 +115,7 @@ const patents = [
 const books=[
   {
     quote: "Abstract Proceedings of the International Conference on Research Advances in Engineering and Technology - ITechCET 2021",
-    name: "Dr. Renjith Thomas & Et al.",
+    name: "Dr. Renjith Thomas & et. al.",
     title: [
       "Publisher: Wizcraft Publications and Distribution.",
       "Publication date: June 2023",
@@ -125,7 +124,7 @@ const books=[
   },
   {
       quote: "Abstract Proceedings of the International Conference on Research Advances in Engineering and Technology - ITechCET 2022",
-      name: "Dr. Renjith Thomas & Et al.",
+      name: "Dr. Renjith Thomas & et. al.",
       title: [
         "Publisher: Wizcraft Publications and Distribution.",
         "Publication date: 9th March 2023",
