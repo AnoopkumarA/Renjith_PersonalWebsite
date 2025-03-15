@@ -23,7 +23,7 @@ export default function About() {
             <p className="text-gray-300 font-montaga text-justify mb-6 ">
             An academic and researcher specializing in Computer Vision, with a PhD in the field. With extensive experience in teaching, research, and mentoring, I am passionate about guiding students, supervising research projects, and contributing to curriculum development. My expertise spans machine learning, deep learning, natural language processing, and computer vision, with multiple publications in international journals and conferences.<br />
               <br />
-              Beyond academia, I am actively involved in AI-driven innovations, securing patents and research grants, and authoring various conference and journal publications. I have earned recognition in global AI hackathons, serve as a reviewer for IEEE and other esteemed conferences, and have contributed to the advancement of AI applications in healthcare, smart cities, and security.
+              Beyond academia, I am actively involved in AI-driven innovations, securing patents and research grants, and authoring various conference and journal publications. I have earned recognition in global AI hackathons, serve as a reviewer and session chair for IEEE and other esteemed conferences, and have contributed to the advancement of AI applications in healthcare, smart cities, and security.
             </p>
             <div className="flex gap-4">
               <motion.a

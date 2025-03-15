@@ -7,7 +7,7 @@ import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 const journalPublications = [
   {
     quote: "Integrating GWTM and BAT algorithm for face recognition in low-resolution images",
-    name: "Thomas, R., & Rangachar, M. J. S.",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
       "The Imaging Science Journal",
       "Publisher: Taylor & Francis",
@@ -17,7 +17,7 @@ const journalPublications = [
   },
   {
     quote: "Towards Proposing Gabor Ratio Measures and Fuzzy Logic Classifier for Face Recognition",
-    name: "Thomas, R., & Rangachar, M. J. S.",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
       "International Journal of Pattern Recognition and Artificial Intelligence, World Scientific",
       "Publisher: IEEE Access",
@@ -30,25 +30,25 @@ const journalPublications = [
 const conferencePublications = [
   {
     quote: "Automated Mark Entry in Educational Institutions Using Multiple CNNs: A Case Study on Recognizing Handwritten Fractional Marks",
-    name: "Sabu, D., Jose, A., Philip, J., Pranav, P., Thomas, R., & Mathew, J.",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
-      "International Conference on Computational Intelligence and Network Systems (CINS)",
+      "IEEE International Conference on Computational Intelligence and Network Systems (CINS)",
       "Year: 2024",
       "Pages: 1-8"
     ].join('\n')
   },
   {
     quote: "Simple Action Model: Enabling LLM to Sequential Function Calling Tool Chain",
-    name: "R. S. Sen, M. Amalkrishna, R. Prithviraj, S. P. Jose, N. Joseph, & R. Thomas",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
-      "International Conference on Advancement in Renewable Energy and Intelligent Systems (AREIS)",
+      "IEEE International Conference on Advancement in Renewable Energy and Intelligent Systems (AREIS)",
       "Year: 2024",
       "Thrissur, India"
     ].join('\n')
   },
   {
     quote: "Automated Detection of Traffic Rule Violation using Deep Learning Techniques",
-    name: "R. Thomas, A. F, A. S. John, & S. K. S",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
       " IEEE Recent Advances in Intelligent Computational Systems (RAICS)",
       "Year: 2024",
@@ -57,16 +57,16 @@ const conferencePublications = [
   },
   {
     quote: "Face Recognition from Image Patches Using an Ensemble of CNN-Local Mesh Pattern Networks",
-    name: "Thomas, R.",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
-      "6th International Conference for Convergence in Technology (I2CT)",
+      "IEEE 6th International Conference for Convergence in Technology (I2CT)",
       "Year: 2021",
       "Page: 1-5"
     ].join('\n')
   },
   {
     quote: "GWTM and Crow Search Algorithm for Face Recognition in Low-Resolution Images",
-    name: "Thomas, R., & Rangachar, M. J. S.",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
       "IEEE International Conference on Advances in Computing, Communication Control and Networking (ICACCCN)",
       "Year: 2018",
@@ -75,9 +75,9 @@ const conferencePublications = [
   },
   {
     quote: "Genetic Algorithm Optimization and Multi-Kernel-Based Spherical SVM for Low-Resolution Face Recognition",
-    name: "Thomas, R., & Rangachar, M. J. S.",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
-      "Third International Conference on Contemporary Computing and Informatics (IC3I)",
+      "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
       "Year: 2018"
     ].join('\n')
   }
@@ -116,7 +116,7 @@ const patents = [
 const books=[
   {
     quote: "Abstract Proceedings of the International Conference on Research Advances in Engineering and Technology - ITechCET 2021",
-    name: "Dr Shan M Assis, Dr Kurian Antony, Dr I Bushra, Dr Ajesh F, Dr Renjith Thomas, Dr Teena Joseph",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
       "Publisher: Wizcraft Publications and Distribution.",
       "Publication date: June 2023",
@@ -125,7 +125,7 @@ const books=[
   },
   {
       quote: "Abstract Proceedings of the International Conference on Research Advances in Engineering and Technology - ITechCET 2022",
-      name: "Dr Shan M Assis, Dr Ajesh F, Dr I Bushra, Dr D Chithra Prasad, Dr Renjith Thomas, Dr Ciby Jacob Cherian, Dr Teena Joseph, Dr Sonia Katherine",
+      name: "Dr. Renjith Thomas & Et al.",
       title: [
         "Publisher: Wizcraft Publications and Distribution.",
         "Publication date: 9th March 2023",
