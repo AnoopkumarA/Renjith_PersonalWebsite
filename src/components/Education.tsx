@@ -20,10 +20,10 @@ export function Education() {
             2 SCIE indexed Journals
             </li>
             <li className="font-montaga text-sm md:text-lg">
-            3 International Journals
+            2 Scopus Indexed Journals
             </li>
             <li className="font-montaga text-sm md:text-lg">
-            2 International IEEE Conferences
+            1 International IEEE Conferences
             </li>
           </ul>
         </div>

@@ -5,7 +5,7 @@ import { useEffect, useRef } from 'react';
 import { HyperText } from './magicui/hyper-text';
 
 const publicationStats = [
-  { count: 5, label: "Journals" },
+  { count: 2, label: "Journals" },
   { count: 7, label: "Conferences" },
   { count: 3, label: "Patents" },
   { count: 2, label: "Books" }
@@ -80,9 +80,9 @@ const achievementGallery: {
       image: "/images/ach (6).png"
     },
     {
-      title: "Ente Keralam Program",
-      description: "",
-      image: "/images/ach (1).png"
+      title: "Honouring the Innovators",
+      description: "Idea Fest 2024",
+      image: "/images/ach (15).jpeg"
     },
    
     {
@@ -94,20 +94,20 @@ const achievementGallery: {
       title: "Ente Keralam Program",
       description: "",
       image: "/images/ach (2).png"
-    }
+    },
+    
     
     
   ],
   rightColumn: [
    
-    
     {
-      title: "IIT Kottayam",
-      description: "1 Week Workshop",
-      image: "/images/ach (5).png"
+      title: "Honouring the Innovators",
+      description: "Idea Fest 2024",
+      image: "/images/ach (14).jpeg"
     },
     {
-      title: "Ex-Union MInister prakash javadekar",
+      title: "With Ex-Union MInister prakash javadekar",
       description: "",
       image: "/images/ach (11).png"
     },
@@ -120,6 +120,11 @@ const achievementGallery: {
       title: "P.H.D Defence Snaps",
       description: "",
       image: "/images/ach (9).png"
+    },
+    {
+      title: "IIT Kottayam",
+      description: "1 Week Workshop",
+      image: "/images/ach (5).png"
     }
     
     

@@ -10,6 +10,7 @@ const journalPublications = [
     name: "Thomas, R., & Rangachar, M. J. S.",
     title: [
       "The Imaging Science Journal",
+      "Publisher: Taylor & Francis",
       "Year: 2016",
       "Volume 64(8), Pages 441-452"
     ].join('\n')
@@ -18,27 +19,10 @@ const journalPublications = [
     quote: "Towards Proposing Gabor Ratio Measures and Fuzzy Logic Classifier for Face Recognition",
     name: "Thomas, R., & Rangachar, M. J. S.",
     title: [
-      "IEEE Access",
+      "International Journal of Pattern Recognition and Artificial Intelligence, World Scientific",
+      "Publisher: IEEE Access",
       "Year: 2016",
       "Volume 11(11), Pages 7200-7211"
-    ].join('\n')
-  },
-  {
-    quote: "Fractional Rider and Multi-Kernel-Based Spherical SVM for Low-Resolution Face Recognition",
-    name: "Thomas, R., & Rangachar, M. J. S",
-    title: [
-      "",
-      "Year: 2019",
-      "Volume 2(2), Pages 35-43"
-    ].join('\n')
-  },
-  {
-    quote: "Hybrid Optimization Based DBN for Face Recognition Using Low-Resolution Images",
-    name: "Thomas, R., & Rangachar, M. J. S",
-    title: [
-      "",
-      "Year: 2018",
-      "Volume 1(1), Pages 33-43"
     ].join('\n')
   }
 ];
@@ -102,7 +86,7 @@ const conferencePublications = [
 const patents = [
   {
     quote: "Automated Mark Entry in Educational Institutions Using Multiple CNNs",
-    name: "Panneer Selvam N, M. Sangeetha, P. Shanthi, Karthik N., G. Murugesan,Renjith Thomas, C. Partha, A. Vimala Juliet, V. R. Lakshmiprabha, K. E. Prakash, V. R.",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
       "Patent No: 2021101443",
       "Publication date: 28/04/2021",
@@ -111,7 +95,7 @@ const patents = [
   },
   {
     quote: "AI Enabled Under Water Pollution Tracking Device",
-    name: " Dr. Ajesh Fysal, Dr. Felix Mattathil Philip, Ms. Anupama Jims, Dr. Renjith Thomas",
+    name: " Dr. Renjith Thomas & Et al.",
     title: [
       "Patent No: : 6336195",
       "Publication date: : December 2023",
@@ -120,7 +104,7 @@ const patents = [
   },
   {
     quote: "Smart HealthCare Monitoring Apparatus",
-    name: "Asha Susan John, Amjith Noushad, Richu Jacob Johnson, Bibin Binu, Lijesh L,Renjith Thomas",
+    name: "Dr. Renjith Thomas & Et al.",
     title: [
       "Patent No:  424211-001",
       "Cbr Date: 22/07/2024 19:41:17",
@@ -128,6 +112,27 @@ const patents = [
     ].join('\n')
   },
 ];
+
+const books=[
+  {
+    quote: "Abstract Proceedings of the International Conference on Research Advances in Engineering and Technology - ITechCET 2021",
+    name: "Dr Shan M Assis, Dr Kurian Antony, Dr I Bushra, Dr Ajesh F, Dr Renjith Thomas, Dr Teena Joseph",
+    title: [
+      "Publisher: Wizcraft Publications and Distribution.",
+      "Publication date: June 2023",
+      "ISBN: 9780735443846",
+    ].join('\n')
+  },
+  {
+      quote: "Abstract Proceedings of the International Conference on Research Advances in Engineering and Technology - ITechCET 2022",
+      name: "Dr Shan M Assis, Dr Ajesh F, Dr I Bushra, Dr D Chithra Prasad, Dr Renjith Thomas, Dr Ciby Jacob Cherian, Dr Teena Joseph, Dr Sonia Katherine",
+      title: [
+        "Publisher: Wizcraft Publications and Distribution.",
+        "Publication date: 9th March 2023",
+        "ISBN: 978-93-92268-31-1",
+      ].join('\n')
+  }
+]
 
 export function Publications() {
   return (
@@ -193,7 +198,7 @@ export function Publications() {
                 </h3>
               </div>
               <div className="scale-90 md:scale-100">
-                <InfiniteMovingCards items={conferencePublications} direction="right" speed="slow" />
+                <InfiniteMovingCards items={books} direction="right" speed="slow" />
               </div>
             </div>
           </div>
