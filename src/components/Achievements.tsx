@@ -52,6 +52,11 @@ const achievementGallery: {
       image: "/images/Achivement (1).jpeg"
     },
     {
+      title: "INNOBOT - a 24 Hour Hackathon",
+      description: "PRAYANA'24 by IEEE Kerala Chapter",
+      image: "/images/Achivement (19).jpg"
+    },
+    {
       title: "APJAKTU_CERD_Financial Assistance to Student Projects 2024-25 ",
       description: "Awarded Amount 21,000",
       image: "/images/Achivement (3).jpeg"
@@ -62,13 +67,18 @@ const achievementGallery: {
       image: "/images/ach (4).png"
     },
     {
-      title: "Ente Keralam Showcase",
-      description: "AI-based Surveillance System Demo",
+      title: "AI-based Surveillance System Demo",
+      description: "",
       image: "/images/ach (13).jpeg"
     }
   ],
   middleColumn: [
     
+    {
+      title: "Revolutionizing Hospitality: Role of AI",
+      description: "Speaker",
+      image: "/images/ach (17).jpg"
+    },
     {
       title: "Manorama News Article",
       description: "",
@@ -95,6 +105,11 @@ const achievementGallery: {
       description: "",
       image: "/images/ach (2).png"
     },
+    {
+      title: "Reboot Kerala Hackathon",
+      description: "2020",
+      image: "/images/ach (16).jpg"
+    },
     
     
     
@@ -105,6 +120,11 @@ const achievementGallery: {
       title: "Honouring the Innovators",
       description: "Idea Fest 2024",
       image: "/images/ach (14).jpeg"
+    },
+    {
+      title: "Revolutionizing Hospitality: Role of AI",
+      description: "Speaker",
+      image: "/images/ach (18).jpg"
     },
     {
       title: "With Ex-Union MInister prakash javadekar",
