@@ -54,7 +54,7 @@ const achievementGallery: {
     {
       title: "INNOBOT - a 24 Hour Hackathon",
       description: "PRAYANA'24 by IEEE Kerala Chapter",
-      image: "/images/Achivement (19).jpg"
+      image: "/images/ach (19).jpg"
     },
     {
       title: "APJAKTU_CERD_Financial Assistance to Student Projects 2024-25 ",
