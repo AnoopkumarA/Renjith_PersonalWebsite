@@ -52,7 +52,7 @@ const achievementGallery: {
       image: "/images/Achivement (1).jpeg"
     },
     {
-      title: "INNOBOT - a 24 Hour Hackathon",
+      title: "INNOBOT - A 24 Hour Hackathon",
       description: "PRAYANA'24 by IEEE Kerala Chapter",
       image: "/images/ach (19).jpg"
     },
