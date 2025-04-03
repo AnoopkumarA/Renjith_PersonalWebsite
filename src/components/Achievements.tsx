@@ -52,33 +52,24 @@ const achievementGallery: {
       image: "/images/Achivement (1).jpeg"
     },
     {
-      title: "INNOBOT - A 24 Hour Hackathon",
-      description: "PRAYANA'24 by IEEE Kerala Chapter",
-      image: "/images/ach (19).jpg"
-    },
-    {
       title: "APJAKTU_CERD_Financial Assistance to Student Projects 2024-25 ",
       description: "Awarded Amount 21,000",
       image: "/images/Achivement (3).jpeg"
     },
     {
-      title: "Idea Pitching at Kerala StartUp Mission ",
-      description: "",
-      image: "/images/ach (4).png"
+      title: " ",
+      description: "Got the opportunity to engage with distinguished leaders including Simon Akkara, Chair of the IEEE Kochi Subsection and Dr Sarath K. S., SMIEEE during IEEE Kochi Subsection's Student Paper Contest 2025",
+      image: "/images/ach (16).jpeg"
     },
+    
     {
-      title: "AI-based Surveillance System Demo",
-      description: "",
+      title: "Ente Keralam Showcase",
+      description: "AI-based Surveillance System Demo",
       image: "/images/ach (13).jpeg"
     }
   ],
   middleColumn: [
     
-    {
-      title: "Revolutionizing Hospitality: Role of AI",
-      description: "Speaker",
-      image: "/images/ach (17).jpg"
-    },
     {
       title: "Manorama News Article",
       description: "",
@@ -106,10 +97,11 @@ const achievementGallery: {
       image: "/images/ach (2).png"
     },
     {
-      title: "Reboot Kerala Hackathon",
-      description: "2020",
-      image: "/images/ach (16).jpg"
+      title: "Idea Pitching at Kerala StartUp Mission ",
+      description: "",
+      image: "/images/ach (4).png"
     },
+    
     
     
     
@@ -120,11 +112,6 @@ const achievementGallery: {
       title: "Honouring the Innovators",
       description: "Idea Fest 2024",
       image: "/images/ach (14).jpeg"
-    },
-    {
-      title: "Revolutionizing Hospitality: Role of AI",
-      description: "Speaker",
-      image: "/images/ach (18).jpg"
     },
     {
       title: "With Ex-Union MInister prakash javadekar",
@@ -146,6 +133,7 @@ const achievementGallery: {
       description: "1 Week Workshop",
       image: "/images/ach (5).png"
     }
+    
     
     
   ]
