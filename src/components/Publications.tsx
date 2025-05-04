@@ -79,7 +79,24 @@ const conferencePublications = [
       "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
       "Year: 2018"
     ].join('\n')
-  }
+  },
+  {
+    quote: "ResoBlend: A Hybrid Approach for Image Quality Enhancement",
+    name: "Dr. Renjith Thomas & et. al.",
+    title: [
+      "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
+      "Year: 2025"
+    ].join('\n')
+  },
+  {
+    quote: "Human Exclusive Alerts in CCTV Surveillance Using Computer Vision",
+    name: "Dr. Renjith Thomas & et. al.",
+    title: [
+      "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
+      "Year: 2025"
+    ].join('\n')
+  },
+  
 ];
 
 const patents = [
