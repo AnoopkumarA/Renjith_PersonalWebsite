@@ -86,11 +86,7 @@ const achievementGallery: {
       image: "/images/ach (15).jpeg"
     },
    
-    {
-      title: "Kerala Startup Mission",
-      description: "₹2,00,000 Seed Funding",
-      image: "/images/ach (3).png"
-    },
+   
     {
       title: "Ente Keralam Program",
       description: "",
@@ -132,6 +128,11 @@ const achievementGallery: {
       title: "IIT Kottayam",
       description: "1 Week Workshop",
       image: "/images/ach (5).png"
+    },
+     {
+      title: "Kerala Startup Mission",
+      description: "₹2,00,000 Seed Funding",
+      image: "/images/ach (3).png"
     }
     
     
