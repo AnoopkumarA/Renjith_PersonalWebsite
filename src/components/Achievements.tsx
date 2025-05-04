@@ -85,18 +85,19 @@ const achievementGallery: {
       description: "Idea Fest 2024",
       image: "/images/ach (15).jpeg"
     },
+     {
+      title: "Kerala Startup Mission",
+      description: "₹2,00,000 Seed Funding",
+      image: "/images/ach (3).png"
+    },
    
    
     {
       title: "Ente Keralam Program",
       description: "",
       image: "/images/ach (2).png"
-    },
-    {
-      title: "Idea Pitching at Kerala StartUp Mission ",
-      description: "",
-      image: "/images/ach (4).png"
-    },
+    }
+    
     
     
     
@@ -129,11 +130,12 @@ const achievementGallery: {
       description: "1 Week Workshop",
       image: "/images/ach (5).png"
     },
-     {
-      title: "Kerala Startup Mission",
-      description: "₹2,00,000 Seed Funding",
-      image: "/images/ach (3).png"
-    }
+    {
+      title: "Idea Pitching at Kerala StartUp Mission ",
+      description: "",
+      image: "/images/ach (4).png"
+    },
+    
     
     
     
