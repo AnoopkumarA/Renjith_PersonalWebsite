@@ -96,7 +96,7 @@ const achievementGallery: {
       title: "Ente Keralam Program",
       description: "",
       image: "/images/ach (2).png"
-    }
+    },
     
     
     
