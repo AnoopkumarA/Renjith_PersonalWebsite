@@ -100,7 +100,7 @@ const achievementGallery: {
     {
       title: "Guest Speaker",
       description: "Invited talk on Evaluation of Artificial Intelligence in health care at Mandiram Institutions, Manganam, Kottayam. On 03-05-2025",
-      image: "/images/ach (20).png"
+      image: "/images/ach (20).jpeg"
     },
     
     
