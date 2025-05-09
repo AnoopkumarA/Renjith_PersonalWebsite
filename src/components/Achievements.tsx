@@ -90,12 +90,7 @@ const achievementGallery: {
       description: "₹2,00,000 Seed Funding",
       image: "/images/ach (3).png"
     },
-        {
-      title: "Chief Guest",
-      description: "Inter School Fest Cherubim 2024",
-      image: "/images/ach (21).png"
-    },
-   
+
     {
       title: "Ente Keralam Program",
       description: "",
@@ -144,7 +139,12 @@ const achievementGallery: {
       description: "",
       image: "/images/ach (4).png"
     },
-    
+     {
+      title: "Chief Guest",
+      description: "Inter School Fest Cherubim 2024",
+      image: "/images/ach (21).png"
+     },
+   
     
     
     
