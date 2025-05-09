@@ -11,7 +11,7 @@ const journalPublications = [
       "The Imaging Science Journal",
       "Publisher: Taylor & Francis",
       "Year: 2016",
-      "Volume 64(8), Pages 441-452"
+      "Volume 64(8), Pages 441-452",
       "https://doi.org/10.1080/13682199.2016.1231990"
     ].join('\n')
   },
@@ -22,7 +22,7 @@ const journalPublications = [
       "International Journal of Pattern Recognition and Artificial Intelligence",
       "Publisher: World Scientific",
       "Year: 2016",
-      "Volume 11(11), Pages 7200-7211"
+      "Volume 11(11), Pages 7200-7211",
       "https://doi.org/10.1142/S0218001417560146"
     ].join('\n')
   }
@@ -35,7 +35,7 @@ const conferencePublications = [
     title: [
       "IEEE International Conference on Computational Intelligence and Network Systems (CINS)",
       "Year: 2024",
-      "Pages: 1-8"
+      "Pages: 1-8",
       "DOI: 10.1109/CINS63881.2024.10864430"
     ].join('\n')
   },
@@ -45,7 +45,7 @@ const conferencePublications = [
     title: [
       "IEEE International Conference on Advancement in Renewable Energy and Intelligent Systems (AREIS)",
       "Year: 2024",
-      "Thrissur, India"
+      "Thrissur, India",
       "DOI: 10.1109/AREIS62559.2024.10893677"
     ].join('\n')
   },
@@ -55,7 +55,7 @@ const conferencePublications = [
     title: [
       " IEEE Recent Advances in Intelligent Computational Systems (RAICS)",
       "Year: 2024",
-      "Kothamangalam, Kerala, India"
+      "Kothamangalam, Kerala, India",
       "DOI: 10.1109/RAICS61201.2024.10690036"
     ].join('\n')
   },
@@ -65,7 +65,7 @@ const conferencePublications = [
     title: [
       "IEEE 6th International Conference for Convergence in Technology (I2CT)",
       "Year: 2021",
-      "Page: 1-5"
+      "Page: 1-5",
       "DOI: 10.1109/I2CT51068.2021.9418138"
     ].join('\n')
   },
@@ -75,7 +75,7 @@ const conferencePublications = [
     title: [
       "IEEE International Conference on Advances in Computing, Communication Control and Networking (ICACCCN)",
       "Year: 2018",
-      "Page: 963-970"
+      "Page: 963-970",
       "DOI: 10.1109/ICACCCN.2018.8748464"
     ].join('\n')
   },
@@ -84,7 +84,7 @@ const conferencePublications = [
     name: "Dr. Renjith Thomas & et. al.",
     title: [
       "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
-      "Year: 2025"
+      "Year: 2025",
       "DOI: 10.1109/ETIS64005.2025.10961522"
     ].join('\n')
   },
@@ -93,7 +93,7 @@ const conferencePublications = [
     name: "Dr. Renjith Thomas & et. al.",
     title: [
       "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
-      "Year: 2025"
+      "Year: 2025",
       "DOI: 10.1109/ETIS64005.2025.10961654"
     ].join('\n')
   },
