@@ -115,7 +115,7 @@ const achievementGallery: {
       image: "/images/ach (14).jpeg"
     },
     {
-      title: "With Ex-Union MInister prakash javadekar",
+      title: "With Ex-Union MInister Prakash Javadekar",
       description: "",
       image: "/images/ach (11).png"
     },
