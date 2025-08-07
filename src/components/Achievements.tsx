@@ -76,7 +76,7 @@ const achievementGallery: {
       image: "/images/ach (10).png"
     },
     {
-      title: "IIT Kottayam ",
+      title: "IIIT Kottayam ",
       description: "1 Week Workshop",
       image: "/images/ach (6).png"
     },
@@ -130,7 +130,7 @@ const achievementGallery: {
       image: "/images/ach (9).png"
     },
     {
-      title: "IIT Kottayam",
+      title: "IIIT Kottayam",
       description: "1 Week Workshop",
       image: "/images/ach (5).png"
     },
