@@ -92,8 +92,8 @@ const achievementGallery: {
     },
 
     {
-      title: "Ente Keralam Program",
-      description: "",
+      title: "Ente Keralam Program Coordinator and winner",
+      description: "Award collected from Chittayam Gopakumar, Deputy Speaker, Kerala Legislative Assembly with the presence of Pramod Narayan (MLA) and Dr. Divya Sesha Iyer IAS,  District Collector of Pathanamthitta",
       image: "/images/ach (2).png"
     },
     {
