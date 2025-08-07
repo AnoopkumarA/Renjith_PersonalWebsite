@@ -92,7 +92,7 @@ const conferencePublications = [
     title: [
       "3rd International Conference on Mobile Networks and Wireless Communications (ICMNWC)",
       "Year: 2023",
-      India",
+      "India",
       "DOI: 10.1109/ICMNWC60182.2023.10435777"
     ].join('\n')
   },
