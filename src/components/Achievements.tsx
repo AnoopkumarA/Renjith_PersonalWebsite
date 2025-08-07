@@ -64,7 +64,7 @@ const achievementGallery: {
     
     {
       title: "APJKTU Prototype Development",
-      description: "Rs 25000/- as Prototype Development grand",
+      description: "Rs 25000/- as Financial assistance for prototype development",
       image: "/images/ach (13).jpeg"
     }
   ],
