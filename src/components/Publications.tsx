@@ -30,6 +30,33 @@ const journalPublications = [
 
 const conferencePublications = [
   {
+    quote: "ParkIt: An ANPR based Automated Parking Registry Using YOLO And EasyOCR",
+    name: "Dr. Renjith Thomas & et. al.",
+    title: [
+      "2nd International Conference on Trends in Engineering Systems and Technologies (ICTEST)",
+      "Year: 2025",
+      "DOI: 10.1109/ICTEST64710.2025.11042700"
+    ].join('\n')
+  },
+   {
+    quote: "ResoBlend: A Hybrid Approach for Image Quality Enhancement",
+    name: "Dr. Renjith Thomas & et. al.",
+    title: [
+      "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
+      "Year: 2025",
+      "DOI: 10.1109/ETIS64005.2025.10961522"
+    ].join('\n')
+  },
+  {
+    quote: "Human Exclusive Alerts in CCTV Surveillance Using Computer Vision",
+    name: "Dr. Renjith Thomas & et. al.",
+    title: [
+      "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
+      "Year: 2025",
+      "DOI: 10.1109/ETIS64005.2025.10961654"
+    ].join('\n')
+  },
+  {
     quote: "Automated Mark Entry in Educational Institutions Using Multiple CNNs: A Case Study on Recognizing Handwritten Fractional Marks",
     name: "Dr. Renjith Thomas & et. al.",
     title: [
@@ -53,10 +80,20 @@ const conferencePublications = [
     quote: "Automated Detection of Traffic Rule Violation using Deep Learning Techniques",
     name: "Dr. Renjith Thomas & et. al.",
     title: [
-      " IEEE Recent Advances in Intelligent Computational Systems (RAICS)",
+      "IEEE Recent Advances in Intelligent Computational Systems (RAICS)",
       "Year: 2024",
       "Kothamangalam, Kerala, India",
       "DOI: 10.1109/RAICS61201.2024.10690036"
+    ].join('\n')
+  },
+  {
+    quote: "Automated Detection of Pneumonia Using Pre-Trained Convolutional Neural Networks in X-Ray Images",
+    name: "Dr. Renjith Thomas & et. al.",
+    title: [
+      "3rd International Conference on Mobile Networks and Wireless Communications (ICMNWC)",
+      "Year: 2023",
+      India",
+      "DOI: 10.1109/ICMNWC60182.2023.10435777"
     ].join('\n')
   },
   {
@@ -79,30 +116,11 @@ const conferencePublications = [
       "DOI: 10.1109/ICACCCN.2018.8748464"
     ].join('\n')
   },
-  {
-    quote: "ResoBlend: A Hybrid Approach for Image Quality Enhancement",
-    name: "Dr. Renjith Thomas & et. al.",
-    title: [
-      "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
-      "Year: 2025",
-      "DOI: 10.1109/ETIS64005.2025.10961522"
-    ].join('\n')
-  },
-  {
-    quote: "Human Exclusive Alerts in CCTV Surveillance Using Computer Vision",
-    name: "Dr. Renjith Thomas & et. al.",
-    title: [
-      "IEEE Third International Conference on Contemporary Computing and Informatics (IC3I)",
-      "Year: 2025",
-      "DOI: 10.1109/ETIS64005.2025.10961654"
-    ].join('\n')
-  },
-  
-];
+ ];
 
 const patents = [
   {
-    quote: "Automated Mark Entry in Educational Institutions Using Multiple CNNs",
+    quote: "Secure Device to Device Connectivity Mechanism for IoT Smart City Applications",
     name: "Dr. Renjith Thomas & et. al.",
     title: [
       "Patent No: 2021101443",
@@ -114,7 +132,7 @@ const patents = [
     quote: "AI Enabled Under Water Pollution Tracking Device",
     name: " Dr. Renjith Thomas & et. al.",
     title: [
-      "Patent No: : 6336195",
+      "Patent No: 6336195",
       "Publication date: : December 2023",
       "Patent office :UK Design Patent"
     ].join('\n')
