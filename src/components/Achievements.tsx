@@ -63,8 +63,8 @@ const achievementGallery: {
     },
     
     {
-      title: "Ente Keralam Showcase",
-      description: "AI-based Surveillance System Demo",
+      title: "APJKTU Prototype Development",
+      description: "Rs 25000/- as Prototype Development grand",
       image: "/images/ach (13).jpeg"
     }
   ],
