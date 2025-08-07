@@ -6,7 +6,7 @@ import { HyperText } from './magicui/hyper-text';
 
 const publicationStats = [
   { count: 2, label: "Journals" },
-  { count: 7, label: "Conferences" },
+  { count: 9, label: "Conferences" },
   { count: 3, label: "Patents" },
   { count: 2, label: "Books" }
 ];
