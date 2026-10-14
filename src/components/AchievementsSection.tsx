@@ -32,8 +32,8 @@ const majorHonors = [
     tag: "AICTE ATAL Grant"
   },
   {
-    title: "29 SCI / Scopus Departmental Publications in 2 Years",
-    body: "Led department research output to 29 high-impact international papers during tenure as Dean Research (2021-2023).",
+    title: "42 SCI / Scopus Departmental Publications in 2 Years",
+    body: "Led department research output to 42 high-impact international papers during tenure as Dean Research (2021-2023).",
     tag: "Research Directorate"
   },
   {

@@ -29,7 +29,7 @@ const institutions = [
     role: "Master of Technology (MTech Applied Electronics)",
     period: "2010 - 2012",
     location: "Chennai, Tamil Nadu",
-    image: "/images/anna_university.jpg",
+    image: "/images/ceg_anna_university.jpg",
     description: "Specialized in VLSI hardware design, advanced signal processing, and real-time electronic instrumentation architectures.",
     badge: "MTech Degree"
   },
@@ -41,7 +41,7 @@ const institutions = [
     location: "Pathanamthitta, Kerala",
     image: "/images/mcp.png",
     logo: "/images/musaliar_logo.jpg",
-    description: "Achieved NBA Accreditation for ECE department (2023-2026); orchestrated 29 SCI/Scopus publications and KSUM Idea Fest seed funding.",
+    description: "Achieved NBA Accreditation for ECE department (2023-2026); orchestrated 42 SCI/Scopus publications and KSUM Idea Fest seed funding.",
     badge: "NBA Accredited"
   },
   {
@@ -61,7 +61,7 @@ const institutions = [
     role: "Bachelor of Technology (BTech in ECE)",
     period: "2002 - 2006",
     location: "Kottayam, Kerala",
-    image: "/images/mgu_campus.jpg",
+    image: "/images/mgu_campus_gate.jpg",
     logo: "/images/mgu_logo.svg",
     description: "Undergraduate engineering degree in Electronics & Communication Engineering.",
     badge: "BTech Degree"

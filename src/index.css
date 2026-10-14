@@ -4,6 +4,8 @@
 
 @layer base {
   :root {
+    color-scheme: light only !important;
+    supported-color-schemes: light !important;
     --bg-page: #ecf0f3;
     --card-bg: #ecf0f3;
     --primary-blue: #0284c7;
@@ -11,16 +13,27 @@
   }
 
   html {
+    color-scheme: light only !important;
     scroll-behavior: smooth;
     overflow-x: hidden;
   }
 
   body {
-    background-color: #ecf0f3;
-    color: #1e293b;
+    color-scheme: light only !important;
+    background-color: #ecf0f3 !important;
+    color: #1e293b !important;
     font-family: 'Plus Jakarta Sans', sans-serif;
     overflow-x: hidden;
     position: relative;
+  }
+}
+
+/* Prevent Android Chrome / Samsung Internet Auto-Dark Theme / Inversion */
+@media (prefers-color-scheme: dark) {
+  :root, html, body {
+    color-scheme: light only !important;
+    background-color: #ecf0f3 !important;
+    color: #1e293b !important;
   }
 }
 

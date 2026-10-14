@@ -325,7 +325,7 @@ export const educationData: EducationItem[] = [
       "Specialized in advanced digital signal processing, VLSI systems, and embedded microcontrollers",
       "Authored 2 National Conference Papers in applied electronic instrumentation"
     ],
-    image: "/images/anna_university.jpg"
+    image: "/images/ceg_anna_university.jpg"
   },
   {
     degree: "Bachelor of Technology (BTech)",
@@ -337,7 +337,7 @@ export const educationData: EducationItem[] = [
       "Foundational undergraduate degree in communication systems, analog/digital circuits, and computational logic",
       "Capstone engineering project in communication engineering"
     ],
-    image: "/images/mgu_campus.jpg"
+    image: "/images/mgu_campus_gate.jpg"
   }
 ];
 
@@ -842,7 +842,7 @@ export const officialRoles = [
   {
     role: "Dean Research (2021-2023)",
     body: "Institutional Research Directorate",
-    details: "Orchestrated campus research culture, resulting in 29 SCI/Scopus indexed departmental publications in 2 years."
+    details: "Orchestrated campus research culture, resulting in 42 SCI/Scopus indexed departmental publications in 2 years."
   }
 ];
 
