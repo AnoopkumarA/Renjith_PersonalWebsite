@@ -33,7 +33,7 @@ export default function Hero() {
               className="pill-badge"
             >
               <Sparkles size={13} className="text-sky-600" />
-              <span>WELCOME TO MY WORLD</span>
+              <span>WELCOME</span>
             </motion.div>
 
             {/* Main Heading */}
