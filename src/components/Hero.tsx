@@ -57,7 +57,7 @@ export default function Hero() {
                     2200,
                     'Approved APJAKTU Research Guide',
                     2200,
-                    'Prolific Innovator (16 Patents)',
+                    'Prolific Innovator (19 Patents)',
                     2200,
                     'AI & Deep Learning Researcher',
                     2200,
@@ -79,7 +79,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl text-justify sm:text-left"
             >
-              Academic leader and researcher in <strong>Computer Vision & Deep Learning</strong> with a PhD from Hindusthan Institute of Technology and Science. Currently serving as <strong>Head of the Department</strong> (AI & DS) at St. Joseph's College of Engineering and Technology, Palai. Approved APJAKTU Research Supervisor guiding 3 doctoral scholars with 16 published patents.
+              Academic leader and researcher in <strong>Computer Vision & Deep Learning</strong> with a PhD from Hindusthan Institute of Technology and Science. Currently serving as <strong>Head of the Department</strong> (AI & DS) at St. Joseph's College of Engineering and Technology, Palai. Approved APJAKTU Research Supervisor guiding 3 doctoral scholars with 19 published patents.
             </motion.p>
 
             {/* Inbio Dual-Widget Row: FIND WITH ME + BEST SKILL ON */}
@@ -160,7 +160,7 @@ export default function Hero() {
                   </div>
                   <div
                     className="inbio-btn w-12 h-12 flex items-center justify-center text-purple-600"
-                    title="16 Patents & Hardware Design"
+                    title="19 Patents & Hardware Design"
                   >
                     <Layers size={20} />
                   </div>
@@ -179,7 +179,7 @@ export default function Hero() {
                 href="#publications"
                 className="inbio-btn px-7 py-4 font-bold text-xs uppercase tracking-wider text-sky-700 hover:text-sky-800 flex items-center gap-2"
               >
-                <span>Explore 16 Patents & Research</span>
+                <span>Explore 19 Patents & Research</span>
                 <ExternalLink size={15} />
               </a>
               <a

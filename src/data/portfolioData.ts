@@ -105,14 +105,14 @@ export const personalData: PersonalInfo = {
   cvUrl: "/pdfs/CV_Renjith_Thomas.pdf",
   phdScholarsCount: 3,
   citationsCount: 206,
-  patentsCount: 16,
+  patentsCount: 19,
   conferencesCount: 18,
   journalsCount: 4,
   experienceYears: 15,
   bio: [
     "Academic leader and AI researcher specializing in Computer Vision, Image Processing, and Deep Learning, with a PhD from Hindusthan Institute of Science & Technology Chennai.",
     "Currently serving as Associate Professor & Head of the Department of Artificial Intelligence & Data Science at St. Joseph's College of Engineering & Technology, Palai. Approved APJAKTU Research Supervisor guiding 3 PhD scholars.",
-    "Prolific innovator with 16 published patents and registered designs spanning IoT smart systems, healthcare apparatus, assistive technologies, and AI surveillance. Secured multiple research grants from CERD-APJAKTU, ATAL Academy, and Kerala Startup Mission (KSUM)."
+    "Prolific innovator with 19 published patents and registered designs spanning IoT smart systems, healthcare apparatus, assistive technologies, and AI surveillance. Secured multiple research grants from CERD-APJAKTU, ATAL Academy, and Kerala Startup Mission (KSUM)."
   ],
   socialLinks: [
     {
@@ -166,8 +166,8 @@ export const domainsData: DomainItem[] = [
     id: "patents-iot",
     iconName: "Cpu",
     title: "Patent Innovation & IoT",
-    description: "Architect of 16 patents and designs across IoT device-to-device communication, underwater tracking, solar security, and haptic assistive devices.",
-    tag: "16 Patents"
+    description: "Architect of 19 patents and designs across IoT device-to-device communication, underwater tracking, solar security, and haptic assistive devices.",
+    tag: "19 Patents"
   },
   {
     id: "medical-ai",
@@ -536,6 +536,33 @@ export const patentsData: PatentItem[] = [
     pubDate: "18/09/2026 (Published)",
     status: "Published",
     category: "Thermal Wearables & Smart Textiles"
+  },
+  {
+    id: 17,
+    title: "Modular Thermosyphon-Assisted Solar Desalination System with Passive Heat Routing and Replaceable Multi-Stage PCM Thermal Energy Storage Modules",
+    office: "IP India (Patent Office Journal No. 33/2026)",
+    applicationNo: "Application No: 202641095559 A",
+    pubDate: "14/08/2026 (Published)",
+    status: "Published",
+    category: "Solar Thermal & Water Purification"
+  },
+  {
+    id: 18,
+    title: "Integrated Passive Solar Desalination Apparatus Employing a Double-Basin Evaporator and Phase Change Material-Based Thermal Energy Storage",
+    office: "IP India (Patent Office Journal No. 33/2026)",
+    applicationNo: "Application No: 202641096772 A",
+    pubDate: "14/08/2026 (Published)",
+    status: "Published",
+    category: "Renewable Energy & Desalination"
+  },
+  {
+    id: 19,
+    title: "Multi-Zone PCM Laptop Cooling Pad with Expansion-Tolerant Encapsulation and Adaptive Thermal-Regeneration Control",
+    office: "IP India (Patent Office Journal No. 36/2026)",
+    applicationNo: "Application No: 202641104469 A",
+    pubDate: "04/09/2026 (Published)",
+    status: "Published",
+    category: "Thermal Management & Electronics"
   }
 ];
 

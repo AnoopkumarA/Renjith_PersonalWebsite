@@ -65,7 +65,7 @@ export default function PublicationsSection() {
             Patents & Publications
           </h2>
           <p className="mt-4 text-slate-600 text-base sm:text-lg">
-            16 registered patents, 18 IEEE international conference publications, and 4 high-impact SCIE & Scopus journals.
+            19 registered patents, 18 IEEE international conference publications, and 4 high-impact SCIE & Scopus journals.
           </p>
         </div>
 

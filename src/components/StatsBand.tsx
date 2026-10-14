@@ -5,7 +5,7 @@ export default function StatsBand() {
   const stats = [
     {
       label: "Patents & Designs",
-      value: "16+",
+      value: "19+",
       subtext: "IP Australia, UK & IP India",
       icon: Lightbulb
     },
