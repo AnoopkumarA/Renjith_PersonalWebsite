@@ -5,8 +5,7 @@ import {
   Activity, 
   GraduationCap, 
   Coins, 
-  BookOpenCheck,
-  ArrowRight
+  BookOpenCheck
 } from 'lucide-react';
 import { domainsData } from '../data/portfolioData';
 
@@ -48,7 +47,7 @@ export default function WhatIDo() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.35, delay: index * 0.06 }}
-                className="inbio-card p-8 flex flex-col justify-between group cursor-pointer"
+                className="inbio-card p-8 flex flex-col justify-between group"
               >
                 <div>
                   {/* Top row: Inset Icon & Tag */}
@@ -70,12 +69,6 @@ export default function WhatIDo() {
                   <p className="text-slate-600 text-sm leading-relaxed">
                     {item.description}
                   </p>
-                </div>
-
-                {/* Bottom link indicator */}
-                <div className="pt-6 mt-6 border-t border-slate-200/60 flex items-center gap-2 text-xs font-bold text-slate-400 group-hover:text-sky-600 transition-colors">
-                  <span>Explore domain output</span>
-                  <ArrowRight size={14} className="group-hover:translate-x-1.5 transition-transform" />
                 </div>
               </motion.div>
             );
