@@ -61,7 +61,8 @@ const institutions = [
     role: "Bachelor of Technology (BTech in ECE)",
     period: "2002 - 2006",
     location: "Kottayam, Kerala",
-    image: "/images/mgu_logo.svg",
+    image: "/images/mgu_campus.jpg",
+    logo: "/images/mgu_logo.svg",
     description: "Undergraduate engineering degree in Electronics & Communication Engineering.",
     badge: "BTech Degree"
   }

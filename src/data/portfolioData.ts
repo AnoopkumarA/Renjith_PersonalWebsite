@@ -337,7 +337,7 @@ export const educationData: EducationItem[] = [
       "Foundational undergraduate degree in communication systems, analog/digital circuits, and computational logic",
       "Capstone engineering project in communication engineering"
     ],
-    image: "/images/mgu_logo.svg"
+    image: "/images/mgu_campus.jpg"
   }
 ];
 
