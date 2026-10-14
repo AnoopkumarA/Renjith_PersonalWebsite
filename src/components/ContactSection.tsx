@@ -87,9 +87,9 @@ export default function ContactSection() {
             <div>
               {/* Image Frame: Beautifully proportioned portrait */}
               <div className="p-2 mb-6">
-                <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#e2e8ec] shadow-[inset_3px_3px_6px_#d1d9e6,inset_-3px_-3px_6px_#ffffff]">
+                <div className="w-full aspect-[4/5] rounded-2xl overflow-hidden bg-[#e2e8ec] shadow-[inset_3px_3px_6px_#d1d9e6,inset_-3px_-3px_6px_#ffffff]">
                   <img
-                    src="/images/RT_contact_warm.jpg"
+                    src="/images/RT_contact_portrait_v2.jpg"
                     alt="Dr. Renjith Thomas"
                     className="w-full h-full object-cover object-center hover:scale-[1.03] transition-transform duration-500"
                   />
