@@ -110,12 +110,6 @@ export default function InstitutionsSection() {
                     <span className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-[#ecf0f3]/95 backdrop-blur-md text-sky-800 shadow-[2px_2px_5px_#d1d9e6,-2px_-2px_5px_#ffffff]">
                       {inst.badge}
                     </span>
-
-                    {inst.logo && (
-                      <div className="absolute bottom-3 right-3 w-12 h-12 rounded-xl bg-white p-1.5 shadow-md flex items-center justify-center">
-                        <img src={inst.logo} alt="Logo" className="max-w-full max-h-full object-contain" />
-                      </div>
-                    )}
                   </div>
                 </div>
 
