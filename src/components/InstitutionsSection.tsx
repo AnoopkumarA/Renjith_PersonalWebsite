@@ -38,7 +38,7 @@ export default function InstitutionsSection() {
   return (
     <section id="institutions" className="py-20 md:py-28 bg-[#ecf0f3]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="pill-badge mb-3">
@@ -72,7 +72,7 @@ export default function InstitutionsSection() {
                       alt={inst.name}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
-                    
+
                     <span className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-[#ecf0f3]/95 backdrop-blur-md text-sky-800 shadow-[2px_2px_5px_#d1d9e6,-2px_-2px_5px_#ffffff]">
                       {inst.badge}
                     </span>
@@ -84,7 +84,7 @@ export default function InstitutionsSection() {
                   <span className="text-[11px] font-bold uppercase tracking-wider text-sky-600 block mb-1">
                     {inst.type}
                   </span>
-                  
+
                   <h3 className="text-lg font-bold text-slate-900 leading-snug mb-2 group-hover:text-sky-600 transition-colors">
                     {inst.name}
                   </h3>
