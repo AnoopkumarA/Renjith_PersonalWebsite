@@ -3,19 +3,8 @@ import { Building2, Calendar, MapPin, Briefcase } from 'lucide-react';
 
 const institutions = [
   {
-    name: "St. Joseph's College of Engineering and Technology (SJCET) Palai",
-    type: "Current Affiliation",
-    role: "Associate Professor & Head of Department (AI & DS)",
-    period: "Jan 2024 - Present",
-    location: "Palai, Kottayam, Kerala",
-    image: "/images/sjcet_campus.jpg",
-    logo: "/images/sjcet_logo.png",
-    description: "Leading the Department of Artificial Intelligence & Data Science, supervising APJAKTU PhD scholars, and executing CERD funded research.",
-    badge: "Current Role"
-  },
-  {
     name: "Hindusthan Institute of Technology & Science (HITS)",
-    type: "Doctoral Alma Mater",
+    type: "Doctoral",
     role: "Doctor of Philosophy (PhD in Computer Vision)",
     period: "Conferred: 2019",
     location: "Chennai, Tamil Nadu",
@@ -25,7 +14,7 @@ const institutions = [
   },
   {
     name: "Anna University Chennai",
-    type: "Postgraduate Alma Mater",
+    type: "Postgraduate",
     role: "Master of Technology (MTech Applied Electronics)",
     period: "2010 - 2012",
     location: "Chennai, Tamil Nadu",
@@ -34,35 +23,12 @@ const institutions = [
     badge: "MTech Degree"
   },
   {
-    name: "Musaliar College of Engineering and Technology (MCET)",
-    type: "Previous Faculty Appointment",
-    role: "Associate Professor, Dean Research & NBA Coordinator",
-    period: "2019 - 2024",
-    location: "Pathanamthitta, Kerala",
-    image: "/images/mcp.png",
-    logo: "/images/musaliar_logo.jpg",
-    description: "Achieved NBA Accreditation for ECE department (2023-2026); orchestrated 42 SCI/Scopus publications and KSUM Idea Fest seed funding.",
-    badge: "NBA Accredited"
-  },
-  {
-    name: "Gurudeva Institute of Science and Technology (GISAT)",
-    type: "Faculty Appointment",
-    role: "Assistant Professor & PG Coordinator",
-    period: "2012 - 2019 (7 Years)",
-    location: "Kottayam, Kerala",
-    image: "/images/gisat.png",
-    logo: "/images/gisat.png",
-    description: "Seven years of undergraduate and post-graduate teaching excellence, curriculum mentoring, and foundation research.",
-    badge: "7 Years Service"
-  },
-  {
     name: "Mahatma Gandhi University (MGU) Kottayam",
-    type: "Undergraduate Alma Mater",
+    type: "Undergraduate",
     role: "Bachelor of Technology (BTech in ECE)",
     period: "2002 - 2006",
     location: "Kottayam, Kerala",
     image: "/images/mgu_campus_gate.jpg",
-    logo: "/images/mgu_logo.svg",
     description: "Undergraduate engineering degree in Electronics & Communication Engineering.",
     badge: "BTech Degree"
   }
@@ -82,12 +48,12 @@ export default function InstitutionsSection() {
             Institutional Affiliations
           </h2>
           <p className="mt-4 text-slate-600 text-base sm:text-lg">
-            Prestigious universities and institutions shaping Dr. Renjith Thomas's research journey and leadership roles.
+            Prestigious universities shaping Dr. Renjith Thomas's academic foundation and research journey.
           </p>
         </div>
 
         {/* 3-Column Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {institutions.map((inst, index) => (
             <motion.div
               key={index}
