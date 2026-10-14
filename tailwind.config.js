@@ -21,6 +21,14 @@ module.exports = {
   			}
   		},
   		fontFamily: {
+  			sans: [
+  				'"Plus Jakarta Sans"',
+  				'sans-serif'
+  			],
+  			jakarta: [
+  				'"Plus Jakarta Sans"',
+  				'sans-serif'
+  			],
   			montaga: [
   				'Montaga',
   				'serif'

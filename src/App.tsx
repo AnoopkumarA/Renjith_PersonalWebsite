@@ -1,24 +1,29 @@
-import { BackgroundBeamsDemo } from './components/HeroBackground';
 import Navbar from './components/Navbar';
-import About from './components/About';
-import { WorkExperience } from './components/WorkExperiences';
-import { Education } from './components/Education';
-import { Publications } from './components/Publications';
-import { Achievements } from './components/Achievements';
-import Contact from './components/Contact';
+import Hero from './components/Hero';
+import StatsBand from './components/StatsBand';
+import WhatIDo from './components/WhatIDo';
+import ResumeSection from './components/ResumeSection';
+import PublicationsSection from './components/PublicationsSection';
+import AchievementsSection from './components/AchievementsSection';
+import InstitutionsSection from './components/InstitutionsSection';
+import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-black min-h-screen">
-      
+    <div className="min-h-screen bg-[#ecf0f3] text-slate-900 antialiased selection:bg-sky-500 selection:text-white">
       <Navbar />
-      <BackgroundBeamsDemo />
-      <About  />
-      <WorkExperience />
-      <Education />
-      <Publications />
-      <Achievements />
-      <Contact />
+      <main>
+        <Hero />
+        <StatsBand />
+        <WhatIDo />
+        <ResumeSection />
+        <PublicationsSection />
+        <AchievementsSection />
+        <InstitutionsSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </div>
   );
 }
