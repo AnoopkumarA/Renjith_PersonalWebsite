@@ -38,7 +38,7 @@ export default function About() {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="../../public/pdfs/CV Renjith Thomas.pdf"
+                href="/pdfs/CV_Renjith_Thomas.pdf"
                 download="CV of Renjith Thomas"
                 className="flex items-center gap-2 border border-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-full hover:bg-red-600/10 transition-colors"
               >
