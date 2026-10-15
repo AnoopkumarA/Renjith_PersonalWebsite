@@ -13,6 +13,16 @@ const institutions = [
     badge: "PhD Conferred"
   },
   {
+    name: "IIT Bhubaneswar",
+    type: "PG Certification",
+    role: "AICTE QIP PG Certification Program on Robotics and Artificial Intelligence (RAI)",
+    period: "AICTE - QIP Sponsored",
+    location: "Bhubaneswar, Odisha",
+    image: "/images/iit_bhubaneswar.png",
+    description: "Prestigious AICTE Quality Improvement Programme (QIP) Postgraduate Certification in Robotics, Artificial Intelligence, and intelligent automation systems.",
+    badge: "IIT Certification"
+  },
+  {
     name: "Anna University Chennai",
     type: "Postgraduate",
     role: "Master of Technology (MTech Applied Electronics)",
@@ -52,8 +62,8 @@ export default function InstitutionsSection() {
           </p>
         </div>
 
-        {/* 3-Column Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* 4-Column Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {institutions.map((inst, index) => (
             <motion.div
               key={index}

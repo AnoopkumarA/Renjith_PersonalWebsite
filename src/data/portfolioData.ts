@@ -875,6 +875,14 @@ export const officialRoles = [
 
 export const achievementsGallery: AchievementItem[] = [
   {
+    title: "AICTE QIP PG Certification Program on Robotics and AI (RAI)",
+    award: "IIT Bhubaneswar & AICTE QIP",
+    year: "AICTE QIP Sponsored",
+    description: "Postgraduate Certification Program in Robotics and Artificial Intelligence (RAI) under the AICTE Quality Improvement Programme (QIP) at the Indian Institute of Technology (IIT) Bhubaneswar.",
+    image: "/images/iit_bhubaneswar.png",
+    badge: "IIT Certification"
+  },
+  {
     title: "EARTHDAY.ORG 'Our Power, Our Planet Stars Award 2026'",
     award: "International Sustainability Award",
     year: "May 2026",

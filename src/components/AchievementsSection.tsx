@@ -12,6 +12,11 @@ import { achievementsGallery, AchievementItem } from '../data/portfolioData';
 
 const majorHonors = [
   {
+    title: "AICTE QIP PG Certification — Robotics & AI (RAI), IIT Bhubaneswar",
+    body: "Postgraduate Certification in Robotics and Artificial Intelligence (RAI) under the AICTE Quality Improvement Programme (QIP) at Indian Institute of Technology (IIT) Bhubaneswar.",
+    tag: "IIT PG Certification"
+  },
+  {
     title: "5th Place Worldwide — GenAI.Works #BuildwithAI Hackathon",
     body: "Competed globally against 200 teams from 80 countries. Awarded $750 USD prize money and an NVIDIA Graphics Card.",
     tag: "Global Hackathon"
@@ -35,11 +40,6 @@ const majorHonors = [
     title: "42 SCI / Scopus Departmental Publications in 2 Years",
     body: "Led department research output to 42 high-impact international papers during tenure as Dean Research (2021-2023).",
     tag: "Research Directorate"
-  },
-  {
-    title: "TCS Sponsored 1-Week FEP Organizer (2025)",
-    body: "Organized faculty immersion program on 'NLP and XAI: Faculty Immersion in the Era of LLMs' sponsored by Tata Consultancy Services (TCS).",
-    tag: "Corporate Sponsoring"
   }
 ];
 
