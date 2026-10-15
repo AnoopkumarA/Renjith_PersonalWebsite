@@ -12,9 +12,9 @@ import { achievementsGallery, AchievementItem } from '../data/portfolioData';
 
 const majorHonors = [
   {
-    title: "AICTE QIP PG Certification — Robotics & AI (RAI), IIT Bhubaneswar",
-    body: "Postgraduate Certification in Robotics and Artificial Intelligence (RAI) under the AICTE Quality Improvement Programme (QIP) at Indian Institute of Technology (IIT) Bhubaneswar.",
-    tag: "IIT PG Certification"
+    title: "EARTHDAY.ORG 'Our Power, Our Planet Stars Award 2026'",
+    body: "Honored at NMACC Mumbai by EARTHDAY.ORG & Envision for patented solar clean-energy enclosure technologies; featured in Malayala Manorama.",
+    tag: "International Sustainability Award"
   },
   {
     title: "5th Place Worldwide — GenAI.Works #BuildwithAI Hackathon",
