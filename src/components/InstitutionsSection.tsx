@@ -3,16 +3,6 @@ import { Building2, Calendar, MapPin, Briefcase } from 'lucide-react';
 
 const institutions = [
   {
-    name: "Hindusthan Institute of Technology & Science (HITS)",
-    type: "Doctoral",
-    role: "Doctor of Philosophy (PhD in Computer Vision)",
-    period: "Conferred: 2019",
-    location: "Chennai, Tamil Nadu",
-    image: "/images/hindustan_university.jpg",
-    description: "Doctoral research in low-resolution facial recognition, multi-kernel SVMs, and advanced metaheuristic optimization algorithms.",
-    badge: "PhD Conferred"
-  },
-  {
     name: "IIT Bhubaneswar",
     type: "PG Certification",
     role: "AICTE QIP PG Certification Program on Robotics and Artificial Intelligence (RAI)",
@@ -21,6 +11,16 @@ const institutions = [
     image: "/images/iit_bhubaneswar.png",
     description: "Prestigious AICTE Quality Improvement Programme (QIP) Postgraduate Certification in Robotics, Artificial Intelligence, and intelligent automation systems.",
     badge: "IIT Certification"
+  },
+  {
+    name: "Hindusthan Institute of Technology & Science (HITS)",
+    type: "Doctoral",
+    role: "Doctor of Philosophy (PhD in Computer Vision)",
+    period: "Conferred: 2019",
+    location: "Chennai, Tamil Nadu",
+    image: "/images/hindustan_university.jpg",
+    description: "Doctoral research in low-resolution facial recognition, multi-kernel SVMs, and advanced metaheuristic optimization algorithms.",
+    badge: "PhD Conferred"
   },
   {
     name: "Anna University Chennai",
