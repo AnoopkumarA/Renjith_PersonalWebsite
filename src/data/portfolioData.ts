@@ -883,6 +883,14 @@ export const achievementsGallery: AchievementItem[] = [
     badge: "International Award"
   },
   {
+    title: "Keynote: Intellectual Property Rights — Innovation & Patents",
+    award: "Providence College & IIC",
+    year: "Oct 15, 2026",
+    description: "Invited expert keynote session on Intellectual Property Rights (IPR), Innovation, and Patent filing methodologies for final-year engineering trainees and faculty members, organized under the Institution's Innovation Council (IIC) at Providence College of Engineering.",
+    image: "/images/providence_ipr_keynote.png",
+    badge: "Invited Speaker"
+  },
+  {
     title: "Keynote Address: IBNCC Global Business Conclave",
     award: "Invited Dignitary & Keynote Speaker",
     year: "Sept 13, 2026",
