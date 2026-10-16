@@ -22,7 +22,7 @@ export default function StatsBand() {
       icon: Quote
     },
     {
-      label: "PhD Scholars Mentored",
+      label: "PhD Scholars",
       value: "3",
       subtext: "APJAKTU Approved Guide",
       icon: Users
